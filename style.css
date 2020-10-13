@@ -1,0 +1,68 @@
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-image: url("heroimage1.png");
+	background-repeat: no-repeat;
+	background-color: #eaeaea;
+	background-position: left;
+	background-size: 150% 100%;
+	max-width: 150%;
+	max-height: 100%;
+}
+a {
+	text-decoration: none;
+}
+a:link {
+	color: #a3a3c2;
+}
+a:visited {
+	color: #a3a3c2;
+}
+a:hover {
+	color: #d04e6a;
+}
+h1 {
+	color: #666699;
+	padding-top: 60px;
+}
+p {
+	background-color: #d1d1e0;
+	padding: 1.5em;
+	padding-left: 6em;
+	margin-left: -5em;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+th, td {
+	border-bottom: 1px solid #666699;
+	padding: 15px;
+}
+th {
+	color: #a3a3c2;
+}
+ul {
+	list-style-type: none;
+}
+.layout {
+	margin: 3% 2% 3% 45%;
+}
+#title {
+	float: left;
+	margin-left: 2%;
+	margin-top: 0;
+	font-size: 500%;
+	color: #eaeaea;
+	border-bottom: 10px solid #666699;
+	border-right: 4px solid #666699;
+	padding: 5px;
+}
+#directory {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	font-size: 110%;
+	padding-top: 80px;
+}
+#experience p {
+	color: #d04e6a;
+}
